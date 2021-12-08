@@ -2,7 +2,7 @@
   "name": "webp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "webp-converter": "^2.3.3"
-  }
+  },
+  "bin": {
+    "webp": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
