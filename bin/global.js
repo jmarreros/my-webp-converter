@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-let {toWebp} = require('../src/index.js')
-toWebp.then( res => {
-    console.log(res)
-})
+
+const conversion = require('../src/index.js')
+conversion.then(console.log)
+
